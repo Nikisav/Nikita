@@ -1,0 +1,39 @@
+body {
+    background: url("https://i.pinimg.com/originals/32/fd/6e/32fd6e742019beccda4acfc556820450.jpg");
+    font-family: 'Kaushan Script', cursive;
+}
+.body {
+    position: relative;
+    background-color: #88B7D5;
+    border: 6px solid #a8d9f7;
+    margin-top: 50px;
+    padding: 40px 0px 40px 0px;
+    color: white;
+    text-align: center;
+}
+.body:before {
+    content: '';
+    position: absolute;
+    margin: auto;
+    font-size: 0px;
+    width: 0px; height: 0px;
+    border-top: 0px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 46px solid #a8d9f7;
+    border-left: 40px solid transparent;
+    right: calc(50% - 50px);
+    top: -46px;
+}
+.body:after {
+    content: '';
+    position: absolute;
+    margin: auto;
+    font-size: 0px;
+    width: 0px; height: 0px;
+    border-top: 0px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 46px solid #88B7D5;
+    border-left: 40px solid transparent;
+    right: calc(50% - 50px);
+    top: -36px;
+}
